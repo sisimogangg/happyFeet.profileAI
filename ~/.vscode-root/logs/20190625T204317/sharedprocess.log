@@ -1,0 +1,132 @@
+[2019-06-25 20:43:21.068] [sharedprocess] [info] main {"machineId":"55a00c82f352758a449610efa0319d0643ef6112c05f709280ca542f57f1eecc"}
+[2019-06-25 20:43:21.190] [sharedprocess] [info] Scanned user extensions: 23
+[2019-06-25 20:43:21.235] [sharedprocess] [info] Scanned user extensions: 23
+[2019-06-25 20:43:21.354] [sharedprocess] [info] Scanned user extensions: 23
+[2019-06-25 20:43:21.521] [sharedprocess] [info] Deleted from disk bajdzis.vscode-database /home/thubelihle/.vscode/extensions/bajdzis.vscode-database-2.2.0
+[2019-06-25 20:43:21.544] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 20:43:21.559] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 20:43:21.565] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 20:43:21.573] [sharedprocess] [info] Deleted from disk cweijan.vscode-mysql-manager /home/thubelihle/.vscode/extensions/cweijan.vscode-mysql-manager-1.5.2
+[2019-06-25 20:43:21.623] [sharedprocess] [info] Scanned user extensions: 23
+[2019-06-25 20:43:21.641] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 20:43:21.855] [sharedprocess] [info] Scanned user extensions: 23
+[2019-06-25 20:43:36.828] [sharedprocess] [info] Scanned user extensions: 23
+[2019-06-25 20:43:36.851] [sharedprocess] [info] Scanned user extensions: 23
+[2019-06-25 20:43:37.005] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 20:43:37.013] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 20:43:37.217] [sharedprocess] [info] Scanned user extensions: 23
+[2019-06-25 20:43:37.280] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 20:43:38.894] [sharedprocess] [info] Scanned user extensions: 23
+[2019-06-25 20:44:01.013] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-06-25 20:44:19.487] [sharedprocess] [info] Scanned user extensions: 23
+[2019-06-25 20:44:19.531] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 20:44:19.592] [sharedprocess] [info] Scanned user extensions: 23
+[2019-06-25 20:44:19.613] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 20:44:24.096] [sharedprocess] [info] Scanned user extensions: 23
+[2019-06-25 20:44:24.102] [sharedprocess] [info] Scanned user extensions: 23
+[2019-06-25 20:44:24.105] [sharedprocess] [info] Scanned user extensions: 23
+[2019-06-25 20:44:24.108] [sharedprocess] [info] Scanned user extensions: 23
+[2019-06-25 20:44:24.211] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 20:44:24.217] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 20:44:24.234] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 20:44:24.247] [sharedprocess] [info] Installing extension: ms-vscode.go
+[2019-06-25 20:44:24.268] [sharedprocess] [info] Scanned user extensions: 23
+[2019-06-25 20:44:24.350] [sharedprocess] [info] Scanned user extensions: 23
+[2019-06-25 20:44:24.432] [sharedprocess] [info] Scanned user extensions: 23
+[2019-06-25 20:44:24.513] [sharedprocess] [info] Scanned user extensions: 23
+[2019-06-25 20:44:24.517] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 20:44:24.553] [sharedprocess] [info] Scanned user extensions: 23
+[2019-06-25 20:44:24.588] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 20:44:24.609] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 20:44:24.620] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 20:44:24.722] [sharedprocess] [info] Scanned user extensions: 23
+[2019-06-25 20:44:24.744] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 20:44:26.421] [sharedprocess] [info] Downloaded extension: ms-vscode.go /tmp/b9b2a2f1-e3f8-4949-8f4a-a8d2019f4171
+[2019-06-25 20:44:28.140] [sharedprocess] [info] Extracted extension to /home/thubelihle/.vscode/extensions/.ms-vscode.go-0.11.0: ms-vscode.go
+[2019-06-25 20:44:28.141] [sharedprocess] [info] Renamed to /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0
+[2019-06-25 20:44:28.161] [sharedprocess] [info] Installation completed. ms-vscode.go
+[2019-06-25 20:44:28.175] [sharedprocess] [info] Extensions installed successfully: ms-vscode.go
+[2019-06-25 20:48:38.944] [sharedprocess] [info] Scanned user extensions: 24
+[2019-06-25 20:53:38.983] [sharedprocess] [info] Scanned user extensions: 24
+[2019-06-25 20:58:39.017] [sharedprocess] [info] Scanned user extensions: 24
+[2019-06-25 21:03:39.051] [sharedprocess] [info] Scanned user extensions: 24
+[2019-06-25 21:08:39.084] [sharedprocess] [info] Scanned user extensions: 24
+[2019-06-25 21:13:06.845] [sharedprocess] [info] Scanned user extensions: 24
+[2019-06-25 21:13:06.850] [sharedprocess] [info] Scanned user extensions: 24
+[2019-06-25 21:13:06.856] [sharedprocess] [info] Scanned user extensions: 24
+[2019-06-25 21:13:06.962] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 21:13:06.973] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 21:13:06.983] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 21:13:07.069] [sharedprocess] [info] Scanned user extensions: 24
+[2019-06-25 21:13:07.117] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 21:13:07.148] [sharedprocess] [info] Scanned user extensions: 24
+[2019-06-25 21:13:07.185] [sharedprocess] [info] Scanned user extensions: 24
+[2019-06-25 21:13:07.207] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 21:13:07.221] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 21:13:18.393] [sharedprocess] [info] Installing extension: msyrus.go-doc
+[2019-06-25 21:13:18.425] [sharedprocess] [info] Scanned user extensions: 24
+[2019-06-25 21:13:18.955] [sharedprocess] [info] Downloaded extension: msyrus.go-doc /tmp/3abfc882-b481-48e4-92c9-2df9e87ac52f
+[2019-06-25 21:13:19.023] [sharedprocess] [info] Extracted extension to /home/thubelihle/.vscode/extensions/.msyrus.go-doc-0.1.1: msyrus.go-doc
+[2019-06-25 21:13:19.024] [sharedprocess] [info] Renamed to /home/thubelihle/.vscode/extensions/msyrus.go-doc-0.1.1
+[2019-06-25 21:13:19.028] [sharedprocess] [info] Installation completed. msyrus.go-doc
+[2019-06-25 21:13:19.046] [sharedprocess] [info] Extensions installed successfully: msyrus.go-doc
+[2019-06-25 21:13:28.068] [sharedprocess] [info] Installing extension: quillaja.goasm
+[2019-06-25 21:13:28.108] [sharedprocess] [info] Scanned user extensions: 25
+[2019-06-25 21:13:29.300] [sharedprocess] [info] Downloaded extension: quillaja.goasm /tmp/e9e109e4-51f8-4f77-820f-90abf1301403
+[2019-06-25 21:13:29.373] [sharedprocess] [info] Extracted extension to /home/thubelihle/.vscode/extensions/.quillaja.goasm-0.0.4: quillaja.goasm
+[2019-06-25 21:13:29.374] [sharedprocess] [info] Renamed to /home/thubelihle/.vscode/extensions/quillaja.goasm-0.0.4
+[2019-06-25 21:13:29.375] [sharedprocess] [info] Installation completed. quillaja.goasm
+[2019-06-25 21:13:29.382] [sharedprocess] [info] Extensions installed successfully: quillaja.goasm
+[2019-06-25 21:13:39.111] [sharedprocess] [info] Scanned user extensions: 26
+[2019-06-25 21:18:32.714] [sharedprocess] [info] Scanned user extensions: 26
+[2019-06-25 21:18:32.719] [sharedprocess] [info] Scanned user extensions: 26
+[2019-06-25 21:18:32.725] [sharedprocess] [info] Scanned user extensions: 26
+[2019-06-25 21:18:32.792] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 21:18:32.798] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 21:18:32.805] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 21:18:32.916] [sharedprocess] [info] Scanned user extensions: 26
+[2019-06-25 21:18:32.997] [sharedprocess] [info] Scanned user extensions: 26
+[2019-06-25 21:18:33.033] [sharedprocess] [info] Scanned user extensions: 26
+[2019-06-25 21:18:33.045] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 21:18:33.080] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 21:18:33.100] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 21:18:35.113] [sharedprocess] [info] Scanned user extensions: 26
+[2019-06-25 21:18:35.116] [sharedprocess] [info] Scanned user extensions: 26
+[2019-06-25 21:18:35.119] [sharedprocess] [info] Scanned user extensions: 26
+[2019-06-25 21:18:35.216] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 21:18:35.226] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 21:18:35.235] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 21:18:35.335] [sharedprocess] [info] Scanned user extensions: 26
+[2019-06-25 21:18:35.510] [sharedprocess] [info] Scanned user extensions: 26
+[2019-06-25 21:18:35.581] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 21:18:35.598] [sharedprocess] [info] Scanned user extensions: 26
+[2019-06-25 21:18:35.640] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 21:18:35.654] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-25 21:18:39.150] [sharedprocess] [info] Scanned user extensions: 26
+[2019-06-25 21:18:50.584] [sharedprocess] [info] Installing extension: akamud.vscode-theme-onedark
+[2019-06-25 21:18:50.605] [sharedprocess] [info] Scanned user extensions: 26
+[2019-06-25 21:18:51.154] [sharedprocess] [info] Downloaded extension: akamud.vscode-theme-onedark /tmp/3d5a50d8-9318-4621-9432-0a4d6d7df308
+[2019-06-25 21:18:51.193] [sharedprocess] [info] Extracted extension to /home/thubelihle/.vscode/extensions/.akamud.vscode-theme-onedark-2.1.0: akamud.vscode-theme-onedark
+[2019-06-25 21:18:51.194] [sharedprocess] [info] Renamed to /home/thubelihle/.vscode/extensions/akamud.vscode-theme-onedark-2.1.0
+[2019-06-25 21:18:51.194] [sharedprocess] [info] Installation completed. akamud.vscode-theme-onedark
+[2019-06-25 21:18:51.200] [sharedprocess] [info] Extensions installed successfully: akamud.vscode-theme-onedark
+[2019-06-25 21:23:39.181] [sharedprocess] [info] Scanned user extensions: 27
+[2019-06-25 21:28:24.059] [sharedprocess] [info] Installing extension: kkeri.luna
+[2019-06-25 21:28:24.086] [sharedprocess] [info] Scanned user extensions: 27
+[2019-06-25 21:28:27.051] [sharedprocess] [info] Downloaded extension: kkeri.luna /tmp/15ef6cc9-d9e7-4aa1-b0cf-2b82abb6d1a5
+[2019-06-25 21:28:27.090] [sharedprocess] [info] Extracted extension to /home/thubelihle/.vscode/extensions/.kkeri.luna-0.3.1: kkeri.luna
+[2019-06-25 21:28:27.091] [sharedprocess] [info] Renamed to /home/thubelihle/.vscode/extensions/kkeri.luna-0.3.1
+[2019-06-25 21:28:27.091] [sharedprocess] [info] Installation completed. kkeri.luna
+[2019-06-25 21:28:27.100] [sharedprocess] [info] Extensions installed successfully: kkeri.luna
+[2019-06-25 21:28:39.216] [sharedprocess] [info] Scanned user extensions: 28
+[2019-06-25 21:30:12.456] [sharedprocess] [info] Installing extension: mikebell.supernova-color-theme
+[2019-06-25 21:30:12.481] [sharedprocess] [info] Scanned user extensions: 28
+[2019-06-25 21:30:24.937] [sharedprocess] [info] Downloaded extension: mikebell.supernova-color-theme /tmp/fd8d77d9-0dc2-4b80-ac11-86e92d3cedab
+[2019-06-25 21:30:25.051] [sharedprocess] [info] Extracted extension to /home/thubelihle/.vscode/extensions/.mikebell.supernova-color-theme-0.1.5: mikebell.supernova-color-theme
+[2019-06-25 21:30:25.052] [sharedprocess] [info] Renamed to /home/thubelihle/.vscode/extensions/mikebell.supernova-color-theme-0.1.5
+[2019-06-25 21:30:25.053] [sharedprocess] [info] Installation completed. mikebell.supernova-color-theme
+[2019-06-25 21:30:25.059] [sharedprocess] [info] Extensions installed successfully: mikebell.supernova-color-theme
+[2019-06-25 21:33:39.243] [sharedprocess] [info] Scanned user extensions: 29
+[2019-06-25 21:38:39.276] [sharedprocess] [info] Scanned user extensions: 29
+[2019-06-25 21:43:39.384] [sharedprocess] [info] Scanned user extensions: 29
+[2019-06-25 21:48:39.414] [sharedprocess] [info] Scanned user extensions: 29

@@ -1,0 +1,598 @@
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI
+/home/thubelihle/go/src/happyFeet.profileAI>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/main.go:1: expected 'package', found 'EOF'
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI
+/home/thubelihle/go/src/happyFeet.profileAI>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI
+/home/thubelihle/go/src/happyFeet.profileAI/main.go:1: expected 'package', found 'EOF'
+
+Installing 1 tool at /home/thubelihle/go/bin
+  go-outline
+
+Installing github.com/ramya-rao-a/go-outline SUCCEEDED
+
+All tools successfully installed. You're ready to Go :).
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI
+/home/thubelihle/go/src/happyFeet.profileAI>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI
+/home/thubelihle/go/src/happyFeet.profileAI/main.go:5: expected 'STRING', found ':='
+/home/thubelihle/go/src/happyFeet.profileAI/main.go:9: expected 'STRING', found 'if'
+/home/thubelihle/go/src/happyFeet.profileAI/main.go:13: expected ')', found 'EOF'
+
+/home/thubelihle/go/src/happyFeet.profileAI>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/main.go:5: expected 'STRING', found ':='
+/home/thubelihle/go/src/happyFeet.profileAI/main.go:9: expected 'STRING', found 'if'
+/home/thubelihle/go/src/happyFeet.profileAI/main.go:13: expected ')', found 'EOF'
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI
+/home/thubelihle/go/src/happyFeet.profileAI>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI
+/home/thubelihle/go/src/happyFeet.profileAI/main.go:5: expected 'STRING', found ':='
+/home/thubelihle/go/src/happyFeet.profileAI/main.go:9: expected 'STRING', found 'if'
+/home/thubelihle/go/src/happyFeet.profileAI/main.go:15: expected ')', found 'EOF'
+
+/home/thubelihle/go/src/happyFeet.profileAI>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/main.go:5: expected 'STRING', found ':='
+/home/thubelihle/go/src/happyFeet.profileAI/main.go:9: expected 'STRING', found 'if'
+/home/thubelihle/go/src/happyFeet.profileAI/main.go:15: expected ')', found 'EOF'
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI
+/home/thubelihle/go/src/happyFeet.profileAI>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI
+/home/thubelihle/go/src/happyFeet.profileAI/main.go:5: expected 'STRING', found ':='
+/home/thubelihle/go/src/happyFeet.profileAI/main.go:9: expected 'STRING', found 'if'
+/home/thubelihle/go/src/happyFeet.profileAI/main.go:16: expected 'STRING', found 'if'
+/home/thubelihle/go/src/happyFeet.profileAI/main.go:20: expected ')', found 'EOF'
+
+/home/thubelihle/go/src/happyFeet.profileAI>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/main.go:5: expected 'STRING', found ':='
+/home/thubelihle/go/src/happyFeet.profileAI/main.go:9: expected 'STRING', found 'if'
+/home/thubelihle/go/src/happyFeet.profileAI/main.go:16: expected 'STRING', found 'if'
+/home/thubelihle/go/src/happyFeet.profileAI/main.go:20: expected ')', found 'EOF'
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI
+/home/thubelihle/go/src/happyFeet.profileAI>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/main.go:6: cannot find package "go-contacts/app" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI
+/home/thubelihle/go/src/happyFeet.profileAI/main.go:6: cannot find package "go-contacts/app" in any of:
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI
+/home/thubelihle/go/src/happyFeet.profileAI>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI
+/home/thubelihle/go/src/happyFeet.profileAI/main.go:15: undefined: os.Getevn
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI
+/home/thubelihle/go/src/happyFeet.profileAI>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI
+/home/thubelihle/go/src/happyFeet.profileAI/main.go:15: undefined: os.Getevn
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI
+/home/thubelihle/go/src/happyFeet.profileAI>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models/profile.go:6: undefined: Kids
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/models/profile.go:6: undefined: Kids
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models/kid.go:7: undefined: time
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/models/kid.go:7: undefined: time
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models/profile.go:6: undefined: Kids
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/models/profile.go:6: undefined: Kids
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models/profile.go:6: undefined: Kids
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/models/profile.go:6: undefined: Kids
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models/profile.go:7: undefined: PersonalDetails
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/models/profile.go:7: undefined: PersonalDetails
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models/personalDetails.go:6: undefined: time
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/models/personalDetails.go:6: undefined: time
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models/personalDetails.go:8: undefined: Address
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/models/personalDetails.go:8: undefined: Address
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models/personalDetails.go:8: undefined: Address
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/models/personalDetails.go:8: undefined: Address
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models/profile.go:10: missing function body
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/models/profile.go:10: missing function body
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models/profile.go:12: missing return at end of function
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/models/profile.go:12: missing return at end of function
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models/profile.go:12: missing return at end of function
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/models/profile.go:12: missing return at end of function
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models/profile.go:12: missing return at end of function
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/models/profile.go:12: missing return at end of function
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models/profile.go:11: profile declared and not used
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/models/profile.go:11: profile declared and not used
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models/profile.go:11: profile declared and not used
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/models/profile.go:11: profile declared and not used
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models/profile.go:13: undefined: userid
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/models/profile.go:13: undefined: userid
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/models
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/models
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/models
+
+/home/thubelihle/go/src/happyFeet.profileAI/models>Finished running tool: /usr/local/go/bin/go vet ./...
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Installing 11 tools at /home/thubelihle/go/bin
+  gocode
+  gopkgs
+  go-outline
+  go-symbols
+  guru
+  gorename
+  dlv
+  gocode-gomod
+  godef
+  goreturns
+  golint
+
+Installing github.com/mdempsky/gocode SUCCEEDED
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Installing github.com/uudashr/gopkgs/cmd/gopkgs SUCCEEDED
+Installing github.com/ramya-rao-a/go-outline SUCCEEDED
+Installing github.com/acroca/go-symbols SUCCEEDED
+Installing golang.org/x/tools/cmd/guru SUCCEEDED
+Installing golang.org/x/tools/cmd/gorename SUCCEEDED
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Installing github.com/go-delve/delve/cmd/dlv SUCCEEDED
+Installing github.com/stamblerre/gocode SUCCEEDED
+Installing github.com/rogpeppe/godef SUCCEEDED
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Installing github.com/sqs/goreturns SUCCEEDED
+Installing golang.org/x/lint/golint SUCCEEDED
+
+All tools successfully installed. You're ready to Go :).
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /home/thubelihle/go/bin/golint
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:12: exported var GetProfile should have comment or be unexported
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:14: var userId should be userID
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:18: no new variables on left side of :=
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:18: no new variables on left side of :=
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /home/thubelihle/go/bin/golint
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:13: exported var GetProfile should have comment or be unexported
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:15: var userId should be userID
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:5: cannot find package "go-contacts/utils" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:5: cannot find package "go-contacts/utils" in any of:
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /home/thubelihle/go/bin/golint
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:14: exported var GetProfile should have comment or be unexported
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:16: var userId should be userID
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /home/thubelihle/go/bin/golint
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:14: exported var GetProfile should have comment or be unexported
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:16: var userId should be userID
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /home/thubelihle/go/bin/golint
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:14: exported var GetProfile should have comment or be unexported
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:16: var userId should be userID
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /home/thubelihle/go/bin/golint
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:14: exported var GetProfile should have comment or be unexported
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:17: var userId should be userID
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:24: var userId should be userID
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /home/thubelihle/go/bin/golint
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:14: exported var GetProfile should have comment or be unexported
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:17: var userId should be userID
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:24: var userId should be userID
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /home/thubelihle/go/bin/golint
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:14: exported var GetProfile should have comment or be unexported
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:17: var userId should be userID
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:24: var userId should be userID
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+

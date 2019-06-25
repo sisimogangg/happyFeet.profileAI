@@ -1,0 +1,356 @@
+[2019-06-25 20:44:19.541] [renderer1] [error] Error: Error: ENOENT: no such file or directory, stat '/home/thubelihle/go/src/happyFeet.profileAI/.vscode'
+[2019-06-25 20:45:26.903] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 20:45:27.944] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 20:45:29.634] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:45:30.727] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:46:45.935] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:46:47.641] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:46:49.863] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:46:51.416] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:46:54.774] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:46:58.749] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:47:00.774] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:47:02.828] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:47:05.789] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:47:08.000] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:47:13.262] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:47:17.057] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:47:19.908] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:47:23.322] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:47:35.525] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:47:36.530] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:47:38.230] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:47:42.001] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:47:51.525] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:47:53.604] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:47:55.081] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:47:56.136] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:47:57.414] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:48:02.079] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:48:07.578] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:48:09.365] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:48:15.889] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:48:18.227] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:48:19.379] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:48:22.147] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:48:23.152] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:48:26.388] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:49:04.505] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:49:29.168] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:50:49.861] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 20:50:52.426] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 20:50:54.296] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 20:51:02.294] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:51:05.177] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:51:06.492] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:51:07.716] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:51:14.721] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:51:17.166] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:51:24.936] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:51:46.851] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:51:49.304] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:52:02.123] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:52:09.080] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:53:05.252] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 20:53:07.515] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 20:53:09.089] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 20:53:16.663] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:53:19.857] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:53:21.973] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:53:26.542] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:53:27.689] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:53:28.759] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:53:29.795] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:53:34.584] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:53:35.905] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:53:40.986] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:53:49.479] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:53:57.854] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:54:02.035] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:54:09.452] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:54:30.910] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:54:33.022] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:54:34.266] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:54:35.323] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:54:37.509] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:54:42.797] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:54:54.437] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:54:55.475] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:54:57.173] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:55:00.167] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:55:01.310] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:55:04.183] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:55:06.185] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:55:16.109] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:55:26.999] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:55:29.001] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:56:19.832] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:56:22.113] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:56:27.326] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:56:28.617] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:56:29.959] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:56:36.714] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:56:40.162] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:56:51.283] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:57:01.337] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:57:19.308] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 20:57:21.746] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 20:57:23.302] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 20:57:25.402] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:57:26.499] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:57:27.591] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:57:28.853] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:57:29.858] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:57:39.700] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:57:41.221] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:57:45.728] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:58:48.565] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:58:50.019] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:58:51.069] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:58:52.584] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:58:58.420] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:58:59.755] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:59:04.860] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:59:19.889] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:59:21.471] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:59:48.594] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:59:49.627] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:59:52.761] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 20:59:59.151] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:00:20.669] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 21:00:29.023] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 21:00:30.188] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 21:00:31.363] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 21:00:32.366] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 21:00:35.828] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:00:36.871] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:00:37.992] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:00:39.889] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:00:42.959] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:00:44.933] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:00:46.252] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:00:49.244] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:00:55.923] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:01:08.201] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:01:10.548] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:01:13.573] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:01:15.812] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:01:20.692] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:01:36.418] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:01:37.684] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:01:43.209] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:02:15.164] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:02:16.194] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:02:21.368] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:02:25.240] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:02:31.701] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:02:32.753] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:02:34.241] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:02:41.269] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:03:03.569] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:07:44.173] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:07:45.965] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:07:48.062] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:07:49.119] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:07:51.916] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:07:55.521] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:08:04.134] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:09:21.094] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:09:31.287] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:09:32.313] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:09:33.735] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:09:43.411] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:09:54.987] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:09:56.455] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:10:06.692] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:10:10.877] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:10:13.111] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:10:14.293] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:10:25.231] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:10:27.009] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:10:32.047] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:10:50.707] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:11:32.988] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 21:11:36.689] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 21:11:38.213] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 21:12:39.445] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:12:46.164] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:12:47.264] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:12:48.411] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:12:50.924] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:12:56.997] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:12:58.351] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:13:00.151] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:13:01.507] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-25 21:13:48.945] [renderer1] [error] An unknown error occurred. Please consult the log for more details.

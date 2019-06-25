@@ -1,0 +1,1008 @@
+[2019-06-25 20:43:20.372] [exthost] [info] extension host started
+[2019-06-25 20:43:20.430] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-06-25 20:43:20.430] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-06-25 20:43:20.434] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-06-25 20:43:20.434] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-06-25 20:43:20.451] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-06-25 20:43:20.451] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-06-25 20:43:20.591] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-06-25 20:43:20.591] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-06-25 20:43:20.598] [exthost] [info] ExtensionService#_doActivateExtension odubuc.mysql-inline-decorator {"startup":true,"activationEvent":"*"}
+[2019-06-25 20:43:20.598] [exthost] [info] ExtensionService#loadCommonJSModule /home/thubelihle/.vscode/extensions/odubuc.mysql-inline-decorator-0.0.5/out/extension
+[2019-06-25 20:43:20.600] [exthost] [info] ExtensionService#_doActivateExtension spmeesseman.vscode-taskexplorer {"startup":true,"activationEvent":"*"}
+[2019-06-25 20:43:20.600] [exthost] [info] ExtensionService#loadCommonJSModule /home/thubelihle/.vscode/extensions/spmeesseman.vscode-taskexplorer-1.19.3/out/extension
+[2019-06-25 20:43:20.681] [exthost] [info] eager extensions activated
+[2019-06-25 20:43:37.732] [exthost] [info] extension host started
+[2019-06-25 20:43:37.752] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-06-25 20:43:37.752] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-06-25 20:43:37.756] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-06-25 20:43:37.756] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-06-25 20:43:37.778] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-06-25 20:43:37.778] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-06-25 20:43:37.902] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-06-25 20:43:37.902] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-06-25 20:43:37.908] [exthost] [info] ExtensionService#_doActivateExtension odubuc.mysql-inline-decorator {"startup":true,"activationEvent":"*"}
+[2019-06-25 20:43:37.908] [exthost] [info] ExtensionService#loadCommonJSModule /home/thubelihle/.vscode/extensions/odubuc.mysql-inline-decorator-0.0.5/out/extension
+[2019-06-25 20:43:37.911] [exthost] [info] ExtensionService#_doActivateExtension spmeesseman.vscode-taskexplorer {"startup":true,"activationEvent":"*"}
+[2019-06-25 20:43:37.911] [exthost] [info] ExtensionService#loadCommonJSModule /home/thubelihle/.vscode/extensions/spmeesseman.vscode-taskexplorer-1.19.3/out/extension
+[2019-06-25 20:43:38.324] [exthost] [info] eager extensions activated
+[2019-06-25 20:44:28.320] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.Go {"startup":false,"activationEvent":"onLanguage:go"}
+[2019-06-25 20:44:28.320] [exthost] [info] ExtensionService#loadCommonJSModule /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goMain
+[2019-06-25 20:45:26.899] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:45:26.902] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 20:45:27.943] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:45:27.944] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 20:45:29.618] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:45:29.618] [exthost] [error] undefined
+[2019-06-25 20:45:30.576] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:45:30.576] [exthost] [error] undefined
+[2019-06-25 20:45:30.721] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:45:30.721] [exthost] [error] undefined
+[2019-06-25 20:46:45.934] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:46:45.934] [exthost] [error] undefined
+[2019-06-25 20:46:46.265] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:46:46.265] [exthost] [error] undefined
+[2019-06-25 20:46:46.356] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:46:46.356] [exthost] [error] undefined
+[2019-06-25 20:46:46.448] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:46:46.448] [exthost] [error] undefined
+[2019-06-25 20:46:46.638] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:46:46.638] [exthost] [error] undefined
+[2019-06-25 20:46:47.640] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:46:47.640] [exthost] [error] undefined
+[2019-06-25 20:46:49.862] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:46:49.862] [exthost] [error] undefined
+[2019-06-25 20:46:50.226] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:46:50.226] [exthost] [error] undefined
+[2019-06-25 20:46:50.623] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:46:50.623] [exthost] [error] undefined
+[2019-06-25 20:46:51.416] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:46:51.416] [exthost] [error] undefined
+[2019-06-25 20:46:54.769] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:46:54.769] [exthost] [error] undefined
+[2019-06-25 20:46:55.018] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:46:55.018] [exthost] [error] undefined
+[2019-06-25 20:46:55.118] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:46:55.118] [exthost] [error] undefined
+[2019-06-25 20:46:55.217] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:46:55.217] [exthost] [error] undefined
+[2019-06-25 20:46:55.396] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:46:55.396] [exthost] [error] undefined
+[2019-06-25 20:46:58.748] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:46:58.748] [exthost] [error] undefined
+[2019-06-25 20:46:59.088] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:46:59.088] [exthost] [error] undefined
+[2019-06-25 20:46:59.160] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:46:59.160] [exthost] [error] undefined
+[2019-06-25 20:47:00.773] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:00.773] [exthost] [error] undefined
+[2019-06-25 20:47:00.926] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:00.926] [exthost] [error] undefined
+[2019-06-25 20:47:01.521] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:01.521] [exthost] [error] undefined
+[2019-06-25 20:47:02.827] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:02.827] [exthost] [error] undefined
+[2019-06-25 20:47:03.228] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:03.228] [exthost] [error] undefined
+[2019-06-25 20:47:05.788] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:05.788] [exthost] [error] undefined
+[2019-06-25 20:47:05.922] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:05.922] [exthost] [error] undefined
+[2019-06-25 20:47:06.062] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:06.062] [exthost] [error] undefined
+[2019-06-25 20:47:07.999] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:07.999] [exthost] [error] undefined
+[2019-06-25 20:47:13.262] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:13.262] [exthost] [error] undefined
+[2019-06-25 20:47:13.753] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:13.753] [exthost] [error] undefined
+[2019-06-25 20:47:17.056] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:17.056] [exthost] [error] undefined
+[2019-06-25 20:47:19.908] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:19.908] [exthost] [error] undefined
+[2019-06-25 20:47:23.321] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:23.321] [exthost] [error] undefined
+[2019-06-25 20:47:35.524] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:35.524] [exthost] [error] undefined
+[2019-06-25 20:47:36.097] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:36.097] [exthost] [error] undefined
+[2019-06-25 20:47:36.529] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:36.529] [exthost] [error] undefined
+[2019-06-25 20:47:37.397] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:37.397] [exthost] [error] undefined
+[2019-06-25 20:47:38.230] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:38.230] [exthost] [error] undefined
+[2019-06-25 20:47:38.684] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:38.684] [exthost] [error] undefined
+[2019-06-25 20:47:38.818] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:38.818] [exthost] [error] undefined
+[2019-06-25 20:47:42.001] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:42.001] [exthost] [error] undefined
+[2019-06-25 20:47:51.524] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:51.524] [exthost] [error] undefined
+[2019-06-25 20:47:51.982] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:51.982] [exthost] [error] undefined
+[2019-06-25 20:47:53.603] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:53.603] [exthost] [error] undefined
+[2019-06-25 20:47:53.954] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:53.954] [exthost] [error] undefined
+[2019-06-25 20:47:54.068] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:54.068] [exthost] [error] undefined
+[2019-06-25 20:47:55.080] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:55.080] [exthost] [error] undefined
+[2019-06-25 20:47:55.399] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:55.399] [exthost] [error] undefined
+[2019-06-25 20:47:55.797] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:55.797] [exthost] [error] undefined
+[2019-06-25 20:47:56.005] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:56.005] [exthost] [error] undefined
+[2019-06-25 20:47:56.135] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:56.135] [exthost] [error] undefined
+[2019-06-25 20:47:56.236] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:56.236] [exthost] [error] undefined
+[2019-06-25 20:47:56.781] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:56.781] [exthost] [error] undefined
+[2019-06-25 20:47:56.986] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:56.986] [exthost] [error] undefined
+[2019-06-25 20:47:57.118] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:57.118] [exthost] [error] undefined
+[2019-06-25 20:47:57.413] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:57.413] [exthost] [error] undefined
+[2019-06-25 20:47:57.632] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:57.632] [exthost] [error] undefined
+[2019-06-25 20:47:57.720] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:57.720] [exthost] [error] undefined
+[2019-06-25 20:47:58.027] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:47:58.027] [exthost] [error] undefined
+[2019-06-25 20:48:02.078] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:48:02.078] [exthost] [error] undefined
+[2019-06-25 20:48:07.577] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:48:07.577] [exthost] [error] undefined
+[2019-06-25 20:48:09.365] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:48:09.365] [exthost] [error] undefined
+[2019-06-25 20:48:15.888] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:48:15.888] [exthost] [error] undefined
+[2019-06-25 20:48:16.379] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:48:16.379] [exthost] [error] undefined
+[2019-06-25 20:48:18.226] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:48:18.226] [exthost] [error] undefined
+[2019-06-25 20:48:19.379] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:48:19.379] [exthost] [error] undefined
+[2019-06-25 20:48:22.147] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:48:22.147] [exthost] [error] undefined
+[2019-06-25 20:48:22.523] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:48:22.523] [exthost] [error] undefined
+[2019-06-25 20:48:23.151] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:48:23.151] [exthost] [error] undefined
+[2019-06-25 20:48:26.387] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:48:26.387] [exthost] [error] undefined
+[2019-06-25 20:49:04.504] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:49:04.504] [exthost] [error] undefined
+[2019-06-25 20:49:05.255] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:49:05.255] [exthost] [error] undefined
+[2019-06-25 20:49:29.167] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:49:29.167] [exthost] [error] undefined
+[2019-06-25 20:50:49.837] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:50:49.837] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 20:50:52.426] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:50:52.426] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 20:50:53.235] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:50:53.235] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 20:50:54.295] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:50:54.295] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 20:50:55.130] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:50:55.130] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 20:51:02.293] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:51:02.293] [exthost] [error] undefined
+[2019-06-25 20:51:03.096] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:51:03.096] [exthost] [error] undefined
+[2019-06-25 20:51:05.176] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:51:05.176] [exthost] [error] undefined
+[2019-06-25 20:51:05.587] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:51:05.587] [exthost] [error] undefined
+[2019-06-25 20:51:05.946] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:51:05.946] [exthost] [error] undefined
+[2019-06-25 20:51:06.053] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:51:06.053] [exthost] [error] undefined
+[2019-06-25 20:51:06.492] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:51:06.492] [exthost] [error] undefined
+[2019-06-25 20:51:06.584] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:51:06.584] [exthost] [error] undefined
+[2019-06-25 20:51:07.716] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:51:07.716] [exthost] [error] undefined
+[2019-06-25 20:51:08.373] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:51:08.373] [exthost] [error] undefined
+[2019-06-25 20:51:08.575] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:51:08.575] [exthost] [error] undefined
+[2019-06-25 20:51:14.721] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:51:14.721] [exthost] [error] undefined
+[2019-06-25 20:51:15.032] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:51:15.032] [exthost] [error] undefined
+[2019-06-25 20:51:15.138] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:51:15.138] [exthost] [error] undefined
+[2019-06-25 20:51:15.266] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:51:15.266] [exthost] [error] undefined
+[2019-06-25 20:51:17.165] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:51:17.165] [exthost] [error] undefined
+[2019-06-25 20:51:17.303] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:51:17.303] [exthost] [error] undefined
+[2019-06-25 20:51:17.621] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:51:17.621] [exthost] [error] undefined
+[2019-06-25 20:51:18.162] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:51:18.162] [exthost] [error] undefined
+[2019-06-25 20:51:24.936] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:51:24.936] [exthost] [error] undefined
+[2019-06-25 20:51:46.851] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:51:46.851] [exthost] [error] undefined
+[2019-06-25 20:51:47.050] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:51:47.050] [exthost] [error] undefined
+[2019-06-25 20:51:47.124] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:51:47.124] [exthost] [error] undefined
+[2019-06-25 20:51:47.240] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:51:47.240] [exthost] [error] undefined
+[2019-06-25 20:51:49.304] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:51:49.304] [exthost] [error] undefined
+[2019-06-25 20:51:49.532] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:51:49.532] [exthost] [error] undefined
+[2019-06-25 20:51:49.589] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:51:49.589] [exthost] [error] undefined
+[2019-06-25 20:52:02.117] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:52:02.117] [exthost] [error] undefined
+[2019-06-25 20:52:09.080] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:52:09.080] [exthost] [error] undefined
+[2019-06-25 20:53:05.251] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:53:05.251] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 20:53:07.514] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:53:07.514] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 20:53:08.078] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:53:08.078] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 20:53:09.088] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:53:09.088] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 20:53:16.662] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:53:16.662] [exthost] [error] undefined
+[2019-06-25 20:53:17.146] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:53:17.146] [exthost] [error] undefined
+[2019-06-25 20:53:19.856] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:53:19.856] [exthost] [error] undefined
+[2019-06-25 20:53:20.040] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:53:20.040] [exthost] [error] undefined
+[2019-06-25 20:53:20.175] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:53:20.176] [exthost] [error] undefined
+[2019-06-25 20:53:21.973] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:53:21.973] [exthost] [error] undefined
+[2019-06-25 20:53:22.633] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:53:22.633] [exthost] [error] undefined
+[2019-06-25 20:53:22.838] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:53:22.838] [exthost] [error] undefined
+[2019-06-25 20:53:26.541] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:53:26.541] [exthost] [error] undefined
+[2019-06-25 20:53:27.688] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:53:27.688] [exthost] [error] undefined
+[2019-06-25 20:53:28.758] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:53:28.758] [exthost] [error] undefined
+[2019-06-25 20:53:29.794] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:53:29.794] [exthost] [error] undefined
+[2019-06-25 20:53:34.583] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:53:34.583] [exthost] [error] undefined
+[2019-06-25 20:53:34.825] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:53:34.825] [exthost] [error] undefined
+[2019-06-25 20:53:34.951] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:53:34.951] [exthost] [error] undefined
+[2019-06-25 20:53:35.486] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:53:35.486] [exthost] [error] undefined
+[2019-06-25 20:53:35.904] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:53:35.904] [exthost] [error] undefined
+[2019-06-25 20:53:40.985] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:53:40.985] [exthost] [error] undefined
+[2019-06-25 20:53:49.478] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:53:49.478] [exthost] [error] undefined
+[2019-06-25 20:53:49.669] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:53:49.669] [exthost] [error] undefined
+[2019-06-25 20:53:49.860] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:53:49.860] [exthost] [error] undefined
+[2019-06-25 20:53:50.456] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:53:50.456] [exthost] [error] undefined
+[2019-06-25 20:53:57.854] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:53:57.854] [exthost] [error] undefined
+[2019-06-25 20:54:02.034] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:54:02.034] [exthost] [error] undefined
+[2019-06-25 20:54:02.125] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:54:02.125] [exthost] [error] undefined
+[2019-06-25 20:54:09.451] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:54:09.451] [exthost] [error] undefined
+[2019-06-25 20:54:30.909] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:54:30.909] [exthost] [error] undefined
+[2019-06-25 20:54:31.095] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:54:31.095] [exthost] [error] undefined
+[2019-06-25 20:54:31.183] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:54:31.183] [exthost] [error] undefined
+[2019-06-25 20:54:31.433] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:54:31.433] [exthost] [error] undefined
+[2019-06-25 20:54:33.022] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:54:33.022] [exthost] [error] undefined
+[2019-06-25 20:54:33.519] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:54:33.519] [exthost] [error] undefined
+[2019-06-25 20:54:33.612] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:54:33.612] [exthost] [error] undefined
+[2019-06-25 20:54:34.265] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:54:34.265] [exthost] [error] undefined
+[2019-06-25 20:54:34.414] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:54:34.415] [exthost] [error] undefined
+[2019-06-25 20:54:35.190] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:54:35.190] [exthost] [error] undefined
+[2019-06-25 20:54:35.323] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:54:35.323] [exthost] [error] undefined
+[2019-06-25 20:54:35.541] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:54:35.541] [exthost] [error] undefined
+[2019-06-25 20:54:37.509] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:54:37.509] [exthost] [error] undefined
+[2019-06-25 20:54:42.797] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:54:42.797] [exthost] [error] undefined
+[2019-06-25 20:54:54.437] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:54:54.437] [exthost] [error] undefined
+[2019-06-25 20:54:54.757] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:54:54.757] [exthost] [error] undefined
+[2019-06-25 20:54:54.867] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:54:54.867] [exthost] [error] undefined
+[2019-06-25 20:54:55.309] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:54:55.309] [exthost] [error] undefined
+[2019-06-25 20:54:55.475] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:54:55.475] [exthost] [error] undefined
+[2019-06-25 20:54:55.553] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:54:55.553] [exthost] [error] undefined
+[2019-06-25 20:54:55.676] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:54:55.676] [exthost] [error] undefined
+[2019-06-25 20:54:57.172] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:54:57.172] [exthost] [error] undefined
+[2019-06-25 20:54:57.410] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:54:57.410] [exthost] [error] undefined
+[2019-06-25 20:54:57.574] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:54:57.574] [exthost] [error] undefined
+[2019-06-25 20:54:57.782] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:54:57.782] [exthost] [error] undefined
+[2019-06-25 20:55:00.167] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:55:00.167] [exthost] [error] undefined
+[2019-06-25 20:55:01.309] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:55:01.309] [exthost] [error] undefined
+[2019-06-25 20:55:02.017] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:55:02.017] [exthost] [error] undefined
+[2019-06-25 20:55:04.182] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:55:04.182] [exthost] [error] undefined
+[2019-06-25 20:55:04.567] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:55:04.567] [exthost] [error] undefined
+[2019-06-25 20:55:05.173] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:55:05.173] [exthost] [error] undefined
+[2019-06-25 20:55:06.185] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:55:06.185] [exthost] [error] undefined
+[2019-06-25 20:55:16.109] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:55:16.109] [exthost] [error] undefined
+[2019-06-25 20:55:26.998] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:55:26.998] [exthost] [error] undefined
+[2019-06-25 20:55:27.699] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:55:27.699] [exthost] [error] undefined
+[2019-06-25 20:55:27.826] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:55:27.826] [exthost] [error] undefined
+[2019-06-25 20:55:27.878] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:55:27.878] [exthost] [error] undefined
+[2019-06-25 20:55:29.001] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:55:29.001] [exthost] [error] undefined
+[2019-06-25 20:56:19.831] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:56:19.831] [exthost] [error] undefined
+[2019-06-25 20:56:22.113] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:56:22.113] [exthost] [error] undefined
+[2019-06-25 20:56:22.666] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:56:22.666] [exthost] [error] undefined
+[2019-06-25 20:56:22.889] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:56:22.889] [exthost] [error] undefined
+[2019-06-25 20:56:22.997] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:56:22.997] [exthost] [error] undefined
+[2019-06-25 20:56:27.326] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:56:27.326] [exthost] [error] undefined
+[2019-06-25 20:56:27.834] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:56:27.834] [exthost] [error] undefined
+[2019-06-25 20:56:28.044] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:56:28.044] [exthost] [error] undefined
+[2019-06-25 20:56:28.113] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:56:28.113] [exthost] [error] undefined
+[2019-06-25 20:56:28.293] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:56:28.293] [exthost] [error] undefined
+[2019-06-25 20:56:28.616] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:56:28.616] [exthost] [error] undefined
+[2019-06-25 20:56:28.783] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:56:28.783] [exthost] [error] undefined
+[2019-06-25 20:56:28.886] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:56:28.886] [exthost] [error] undefined
+[2019-06-25 20:56:29.057] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:56:29.057] [exthost] [error] undefined
+[2019-06-25 20:56:29.173] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:56:29.173] [exthost] [error] undefined
+[2019-06-25 20:56:29.959] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:56:29.959] [exthost] [error] undefined
+[2019-06-25 20:56:30.082] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:56:30.082] [exthost] [error] undefined
+[2019-06-25 20:56:36.709] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:56:36.709] [exthost] [error] undefined
+[2019-06-25 20:56:40.160] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:56:40.160] [exthost] [error] undefined
+[2019-06-25 20:56:51.283] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:56:51.283] [exthost] [error] undefined
+[2019-06-25 20:57:01.336] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:57:01.336] [exthost] [error] undefined
+[2019-06-25 20:57:19.294] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:57:19.294] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 20:57:21.745] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:57:21.746] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 20:57:22.513] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:57:22.514] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 20:57:23.301] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:57:23.301] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 20:57:25.401] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:57:25.401] [exthost] [error] undefined
+[2019-06-25 20:57:25.837] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:57:25.837] [exthost] [error] undefined
+[2019-06-25 20:57:26.499] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:57:26.499] [exthost] [error] undefined
+[2019-06-25 20:57:27.241] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:57:27.241] [exthost] [error] undefined
+[2019-06-25 20:57:27.306] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:57:27.306] [exthost] [error] undefined
+[2019-06-25 20:57:27.496] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:57:27.496] [exthost] [error] undefined
+[2019-06-25 20:57:27.590] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:57:27.591] [exthost] [error] undefined
+[2019-06-25 20:57:27.712] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:57:27.712] [exthost] [error] undefined
+[2019-06-25 20:57:28.124] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:57:28.124] [exthost] [error] undefined
+[2019-06-25 20:57:28.249] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:57:28.249] [exthost] [error] undefined
+[2019-06-25 20:57:28.367] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:57:28.367] [exthost] [error] undefined
+[2019-06-25 20:57:28.580] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:57:28.580] [exthost] [error] undefined
+[2019-06-25 20:57:28.852] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:57:28.852] [exthost] [error] undefined
+[2019-06-25 20:57:29.003] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:57:29.003] [exthost] [error] undefined
+[2019-06-25 20:57:29.858] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:57:29.858] [exthost] [error] undefined
+[2019-06-25 20:57:30.369] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:57:30.369] [exthost] [error] undefined
+[2019-06-25 20:57:30.581] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:57:30.581] [exthost] [error] undefined
+[2019-06-25 20:57:39.698] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:57:39.698] [exthost] [error] undefined
+[2019-06-25 20:57:39.947] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:57:39.947] [exthost] [error] undefined
+[2019-06-25 20:57:40.087] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:57:40.087] [exthost] [error] undefined
+[2019-06-25 20:57:41.221] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:57:41.221] [exthost] [error] undefined
+[2019-06-25 20:57:41.691] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:57:41.691] [exthost] [error] undefined
+[2019-06-25 20:57:45.727] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:57:45.727] [exthost] [error] undefined
+[2019-06-25 20:58:48.565] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:58:48.565] [exthost] [error] undefined
+[2019-06-25 20:58:50.018] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:58:50.018] [exthost] [error] undefined
+[2019-06-25 20:58:50.219] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:58:50.219] [exthost] [error] undefined
+[2019-06-25 20:58:50.496] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:58:50.496] [exthost] [error] undefined
+[2019-06-25 20:58:50.761] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:58:50.761] [exthost] [error] undefined
+[2019-06-25 20:58:50.850] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:58:50.850] [exthost] [error] undefined
+[2019-06-25 20:58:51.069] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:58:51.069] [exthost] [error] undefined
+[2019-06-25 20:58:51.204] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:58:51.204] [exthost] [error] undefined
+[2019-06-25 20:58:52.583] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:58:52.583] [exthost] [error] undefined
+[2019-06-25 20:58:58.419] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:58:58.419] [exthost] [error] undefined
+[2019-06-25 20:58:58.773] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:58:58.773] [exthost] [error] undefined
+[2019-06-25 20:58:59.755] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:58:59.755] [exthost] [error] undefined
+[2019-06-25 20:59:00.218] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:59:00.218] [exthost] [error] undefined
+[2019-06-25 20:59:04.860] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:59:04.860] [exthost] [error] undefined
+[2019-06-25 20:59:19.888] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:59:19.888] [exthost] [error] undefined
+[2019-06-25 20:59:20.477] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:59:20.477] [exthost] [error] undefined
+[2019-06-25 20:59:21.470] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:59:21.470] [exthost] [error] undefined
+[2019-06-25 20:59:21.618] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:59:21.618] [exthost] [error] undefined
+[2019-06-25 20:59:22.289] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:59:22.289] [exthost] [error] undefined
+[2019-06-25 20:59:48.593] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:59:48.594] [exthost] [error] undefined
+[2019-06-25 20:59:48.852] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:59:48.852] [exthost] [error] undefined
+[2019-06-25 20:59:49.032] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:59:49.032] [exthost] [error] undefined
+[2019-06-25 20:59:49.275] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:59:49.275] [exthost] [error] undefined
+[2019-06-25 20:59:49.373] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:59:49.373] [exthost] [error] undefined
+[2019-06-25 20:59:49.627] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:59:49.627] [exthost] [error] undefined
+[2019-06-25 20:59:49.795] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:59:49.795] [exthost] [error] undefined
+[2019-06-25 20:59:52.761] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:59:52.761] [exthost] [error] undefined
+[2019-06-25 20:59:59.151] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 20:59:59.151] [exthost] [error] undefined
+[2019-06-25 21:00:20.663] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:20.664] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 21:00:29.022] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:29.022] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 21:00:30.188] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:30.188] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 21:00:31.362] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:31.363] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 21:00:32.366] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:32.366] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 21:00:35.828] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:35.828] [exthost] [error] undefined
+[2019-06-25 21:00:36.276] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:36.276] [exthost] [error] undefined
+[2019-06-25 21:00:36.871] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:36.871] [exthost] [error] undefined
+[2019-06-25 21:00:37.119] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:37.119] [exthost] [error] undefined
+[2019-06-25 21:00:37.293] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:37.293] [exthost] [error] undefined
+[2019-06-25 21:00:37.492] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:37.492] [exthost] [error] undefined
+[2019-06-25 21:00:37.568] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:37.568] [exthost] [error] undefined
+[2019-06-25 21:00:37.809] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:37.809] [exthost] [error] undefined
+[2019-06-25 21:00:37.991] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:37.992] [exthost] [error] undefined
+[2019-06-25 21:00:39.889] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:39.889] [exthost] [error] undefined
+[2019-06-25 21:00:40.513] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:40.513] [exthost] [error] undefined
+[2019-06-25 21:00:40.714] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:40.714] [exthost] [error] undefined
+[2019-06-25 21:00:42.958] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:42.958] [exthost] [error] undefined
+[2019-06-25 21:00:43.721] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:43.721] [exthost] [error] undefined
+[2019-06-25 21:00:44.932] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:44.932] [exthost] [error] undefined
+[2019-06-25 21:00:46.251] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:46.251] [exthost] [error] undefined
+[2019-06-25 21:00:46.429] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:46.429] [exthost] [error] undefined
+[2019-06-25 21:00:46.683] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:46.683] [exthost] [error] undefined
+[2019-06-25 21:00:46.901] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:46.901] [exthost] [error] undefined
+[2019-06-25 21:00:47.038] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:47.038] [exthost] [error] undefined
+[2019-06-25 21:00:47.132] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:47.132] [exthost] [error] undefined
+[2019-06-25 21:00:49.244] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:49.244] [exthost] [error] undefined
+[2019-06-25 21:00:49.923] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:49.923] [exthost] [error] undefined
+[2019-06-25 21:00:49.990] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:49.990] [exthost] [error] undefined
+[2019-06-25 21:00:55.923] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:00:55.923] [exthost] [error] undefined
+[2019-06-25 21:01:08.200] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:01:08.200] [exthost] [error] undefined
+[2019-06-25 21:01:10.547] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:01:10.548] [exthost] [error] undefined
+[2019-06-25 21:01:10.662] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:01:10.662] [exthost] [error] undefined
+[2019-06-25 21:01:11.361] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:01:11.361] [exthost] [error] undefined
+[2019-06-25 21:01:13.573] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:01:13.573] [exthost] [error] undefined
+[2019-06-25 21:01:15.812] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:01:15.812] [exthost] [error] undefined
+[2019-06-25 21:01:16.311] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:01:16.311] [exthost] [error] undefined
+[2019-06-25 21:01:20.692] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:01:20.692] [exthost] [error] undefined
+[2019-06-25 21:01:36.417] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:01:36.417] [exthost] [error] undefined
+[2019-06-25 21:01:37.684] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:01:37.684] [exthost] [error] undefined
+[2019-06-25 21:01:37.847] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:01:37.847] [exthost] [error] undefined
+[2019-06-25 21:01:38.544] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:01:38.544] [exthost] [error] undefined
+[2019-06-25 21:01:43.208] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:01:43.208] [exthost] [error] undefined
+[2019-06-25 21:02:15.163] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:02:15.163] [exthost] [error] undefined
+[2019-06-25 21:02:15.420] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:02:15.420] [exthost] [error] undefined
+[2019-06-25 21:02:15.503] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:02:15.503] [exthost] [error] undefined
+[2019-06-25 21:02:16.194] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:02:16.194] [exthost] [error] undefined
+[2019-06-25 21:02:21.367] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:02:21.367] [exthost] [error] undefined
+[2019-06-25 21:02:25.239] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:02:25.239] [exthost] [error] undefined
+[2019-06-25 21:02:31.701] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:02:31.701] [exthost] [error] undefined
+[2019-06-25 21:02:32.385] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:02:32.385] [exthost] [error] undefined
+[2019-06-25 21:02:32.535] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:02:32.535] [exthost] [error] undefined
+[2019-06-25 21:02:32.753] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:02:32.753] [exthost] [error] undefined
+[2019-06-25 21:02:32.960] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:02:32.960] [exthost] [error] undefined
+[2019-06-25 21:02:33.386] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:02:33.386] [exthost] [error] undefined
+[2019-06-25 21:02:33.471] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:02:33.472] [exthost] [error] undefined
+[2019-06-25 21:02:33.577] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:02:33.577] [exthost] [error] undefined
+[2019-06-25 21:02:33.680] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:02:33.680] [exthost] [error] undefined
+[2019-06-25 21:02:34.240] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:02:34.241] [exthost] [error] undefined
+[2019-06-25 21:02:41.268] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:02:41.268] [exthost] [error] undefined
+[2019-06-25 21:03:03.569] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:03:03.569] [exthost] [error] undefined
+[2019-06-25 21:03:03.898] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:03:03.898] [exthost] [error] undefined
+[2019-06-25 21:03:03.976] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:03:03.976] [exthost] [error] undefined
+[2019-06-25 21:07:44.172] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:07:44.172] [exthost] [error] undefined
+[2019-06-25 21:07:45.965] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:07:45.965] [exthost] [error] undefined
+[2019-06-25 21:07:46.282] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:07:46.282] [exthost] [error] undefined
+[2019-06-25 21:07:48.062] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:07:48.062] [exthost] [error] undefined
+[2019-06-25 21:07:48.367] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:07:48.367] [exthost] [error] undefined
+[2019-06-25 21:07:48.504] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:07:48.504] [exthost] [error] undefined
+[2019-06-25 21:07:48.784] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:07:48.784] [exthost] [error] undefined
+[2019-06-25 21:07:48.874] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:07:48.874] [exthost] [error] undefined
+[2019-06-25 21:07:49.119] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:07:49.119] [exthost] [error] undefined
+[2019-06-25 21:07:49.225] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:07:49.225] [exthost] [error] undefined
+[2019-06-25 21:07:51.915] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:07:51.915] [exthost] [error] undefined
+[2019-06-25 21:07:55.520] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:07:55.520] [exthost] [error] undefined
+[2019-06-25 21:07:56.157] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:07:56.157] [exthost] [error] undefined
+[2019-06-25 21:08:04.133] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:08:04.133] [exthost] [error] undefined
+[2019-06-25 21:09:21.092] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:09:21.092] [exthost] [error] undefined
+[2019-06-25 21:09:31.287] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:09:31.287] [exthost] [error] undefined
+[2019-06-25 21:09:31.582] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:09:31.582] [exthost] [error] undefined
+[2019-06-25 21:09:31.664] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:09:31.664] [exthost] [error] undefined
+[2019-06-25 21:09:31.835] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:09:31.835] [exthost] [error] undefined
+[2019-06-25 21:09:31.913] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:09:31.913] [exthost] [error] undefined
+[2019-06-25 21:09:32.313] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:09:32.313] [exthost] [error] undefined
+[2019-06-25 21:09:33.735] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:09:33.735] [exthost] [error] undefined
+[2019-06-25 21:09:43.411] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:09:43.411] [exthost] [error] undefined
+[2019-06-25 21:09:54.987] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:09:54.987] [exthost] [error] undefined
+[2019-06-25 21:09:56.454] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:09:56.454] [exthost] [error] undefined
+[2019-06-25 21:10:06.691] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:10:06.691] [exthost] [error] undefined
+[2019-06-25 21:10:10.877] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:10:10.877] [exthost] [error] undefined
+[2019-06-25 21:10:13.110] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:10:13.110] [exthost] [error] undefined
+[2019-06-25 21:10:14.293] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:10:14.293] [exthost] [error] undefined
+[2019-06-25 21:10:25.231] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:10:25.231] [exthost] [error] undefined
+[2019-06-25 21:10:27.008] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:10:27.008] [exthost] [error] undefined
+[2019-06-25 21:10:32.044] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:10:32.044] [exthost] [error] undefined
+[2019-06-25 21:10:50.706] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:10:50.706] [exthost] [error] undefined
+[2019-06-25 21:11:32.982] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:11:32.982] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 21:11:36.688] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:11:36.688] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 21:11:37.512] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:11:37.512] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 21:11:38.206] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:11:38.206] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:71)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:345:20)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:333:525)
+	at forEach.decl (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:112:28)
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:91:19)
+	at /home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:28:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/thubelihle/.vscode/extensions/ms-vscode.go-0.11.0/out/src/goOutline.js:8:58)
+[2019-06-25 21:12:39.444] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:12:39.444] [exthost] [error] undefined
+[2019-06-25 21:12:46.163] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:12:46.163] [exthost] [error] undefined
+[2019-06-25 21:12:46.735] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:12:46.735] [exthost] [error] undefined
+[2019-06-25 21:12:47.263] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:12:47.263] [exthost] [error] undefined
+[2019-06-25 21:12:47.602] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:12:47.602] [exthost] [error] undefined
+[2019-06-25 21:12:47.736] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:12:47.736] [exthost] [error] undefined
+[2019-06-25 21:12:48.410] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:12:48.410] [exthost] [error] undefined
+[2019-06-25 21:12:48.576] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:12:48.576] [exthost] [error] undefined
+[2019-06-25 21:12:48.825] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:12:48.825] [exthost] [error] undefined
+[2019-06-25 21:12:48.971] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:12:48.971] [exthost] [error] undefined
+[2019-06-25 21:12:50.923] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:12:50.923] [exthost] [error] undefined
+[2019-06-25 21:12:56.997] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:12:56.997] [exthost] [error] undefined
+[2019-06-25 21:12:58.350] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:12:58.350] [exthost] [error] undefined
+[2019-06-25 21:13:00.150] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:13:00.150] [exthost] [error] undefined
+[2019-06-25 21:13:00.498] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:13:00.498] [exthost] [error] undefined
+[2019-06-25 21:13:00.908] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:13:00.908] [exthost] [error] undefined
+[2019-06-25 21:13:01.035] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:13:01.035] [exthost] [error] undefined
+[2019-06-25 21:13:01.507] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:13:01.507] [exthost] [error] undefined
+[2019-06-25 21:13:01.748] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:13:01.748] [exthost] [error] undefined
+[2019-06-25 21:13:02.084] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:13:02.084] [exthost] [error] undefined
+[2019-06-25 21:13:19.210] [exthost] [info] ExtensionService#_doActivateExtension msyrus.go-doc {"startup":false,"activationEvent":"onLanguage:go"}
+[2019-06-25 21:13:19.210] [exthost] [info] ExtensionService#loadCommonJSModule /home/thubelihle/.vscode/extensions/msyrus.go-doc-0.1.1/out/extension
+[2019-06-25 21:13:29.433] [exthost] [info] ExtensionService#_doActivateExtension quillaja.goasm {"startup":false,"activationEvent":"onLanguage:go"}
+[2019-06-25 21:13:29.433] [exthost] [info] ExtensionService#loadCommonJSModule /home/thubelihle/.vscode/extensions/quillaja.goasm-0.0.4/autocomplete/extension
+[2019-06-25 21:13:48.945] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-06-25 21:13:48.945] [exthost] [error] undefined
+[2019-06-25 21:18:55.971] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-06-25 21:18:55.971] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/configuration-editing/dist/extension
+[2019-06-25 21:18:55.986] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-06-25 21:18:55.986] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2019-06-25 21:18:56.123] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-06-25 21:18:56.123] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
