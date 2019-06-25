@@ -596,3 +596,212 @@ Starting building the current package at /home/thubelihle/go/src/happyFeet.profi
 /home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
 /home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
 
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /home/thubelihle/go/bin/golint
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:14: exported var GetProfile should have comment or be unexported
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:17: var userId should be userID
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:19: var userId should be userID
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /home/thubelihle/go/bin/golint
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:12: exported var GetProfile should have comment or be unexported
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:14: var userId should be userID
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /home/thubelihle/go/bin/golint
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:12: exported var GetProfile should have comment or be unexported
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /home/thubelihle/go/bin/golint
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:12: exported var GetProfile should have comment or be unexported
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /home/thubelihle/go/bin/golint
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:12: exported var GetProfile should have comment or be unexported
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /home/thubelihle/go/bin/golint
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:12: exported var GetProfile should have comment or be unexported
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /home/thubelihle/go/bin/golint
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:12: exported var GetProfile should have comment or be unexported
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /home/thubelihle/go/bin/golint
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:12: exported var GetProfile should have comment or be unexported
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /home/thubelihle/go/bin/golint
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:12: exported var GetProfile should have comment or be unexported
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /home/thubelihle/go/bin/golint
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:12: exported var GetProfile should have comment or be unexported
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /home/thubelihle/go/bin/golint
+/home/thubelihle/go/src/happyFeet.profileAI/controllers/profileController.go:12: exported var GetProfile should have comment or be unexported
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /home/thubelihle/go/bin/golint
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /home/thubelihle/go/bin/golint
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /home/thubelihle/go/bin/golint
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+Starting linting the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting "go vet" under the folder /home/thubelihle/go/src/happyFeet.profileAI/controllers
+Starting building the current package at /home/thubelihle/go/src/happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /home/thubelihle/go/bin/golint
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goZgdZF0/go-code-check happyFeet.profileAI/controllers
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
+/home/thubelihle/go/src/happyFeet.profileAI/controllers>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:4: cannot find package "ecnoding/json" in any of:
+/home/thubelihle/go/src/happyFeet.profileAI/utils/utils.go:5: cannot find package "net.http" in any of:
+
