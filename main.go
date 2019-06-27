@@ -1,27 +1,29 @@
 package main
 
-
 import (
-	"github.com/gorilla/mux"
-	"os"
 	"fmt"
 	"net/http"
+	"os"
+
+	"github.com/gorilla/mux"
+	controller "happyFeet.profileAI/controllers"
 )
 
-func main () {
-   router := mux.NewRouter()
+func main() {
+	router := mux.NewRouter()
 
+	router.HandleFunc("/api/profile/{userId}", controller.GetProfile).Methods("GET")
 
-   port := os.Getenv("PORT")
-   if port == "" {
-	   port = "8000"
-   }
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8000"
+	}
 
-   fmt.Println(port)
+	fmt.Println(port)
 
-   err := http.ListenAndServe(":" + port, router)
-   if err != nil {
-	   fmt.Print(err)
-   }
+	err := http.ListenAndServe(":"+port, router)
+	if err != nil {
+		fmt.Print(err)
+	}
 
 }
