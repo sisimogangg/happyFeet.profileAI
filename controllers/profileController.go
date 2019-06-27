@@ -2,6 +2,9 @@ package controllers
 
 import (
 	"net/http"
+	"time"
+
+	"happyFeet.profileAI/models"
 
 	"github.com/gorilla/mux"
 
@@ -18,17 +21,22 @@ var GetProfile = func(w http.ResponseWriter, r *http.Request) {
 		u.Respond(w, u.Message(false, "There was an error in your request"))
 		return
 	}
-	//	profile := &models.Profile{}
+	kid := models.Kid{Name: "Thubelihle", Grade: 0, DateStarted: time.Now()}
+	address := models.Address{StreetNumber: 16, StreetName: "Lonsdale Drive", Suburb: "Durban North", City: "Durban", PostalCode: 4051}
+	personalDets := models.PersonalDetails{Name: "Godfrey Sisimogang", Address: address}
+	err := personalDets.SetDateOfBirth("1990-03-10")
+	if err != nil {
+		panic(err)
+	}
 
-	/*	err := json.NewDecoder(r.Body).Decode(profile)
-		if err != nil {
-			u.Respond(w, u.Message(false, "Error while decoding request body"))
-			return
-		} */
+	kids := make([]models.Kid, 0, 1)
+	kids = append(kids, kid)
 
-	//profile.UserID = userID
-	// resp :=
-	data := u.Message(true, "You're in baby")
-	u.Respond(w, data)
+	profile := models.Profile{UserID: userID, Kids: kids, PersonalDetails: personalDets}
+
+	resp := u.Message(true, "success")
+	resp["profile"] = profile
+
+	u.Respond(w, resp)
 
 }
