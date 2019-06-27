@@ -14,7 +14,7 @@ var GetProfile = func(w http.ResponseWriter, r *http.Request) {
 	//userID := r.Context.Value("userId").(string)
 	params := mux.Vars(r)
 	userID := params["userId"]
-	if userID != "" {
+	if userID == "" {
 		u.Respond(w, u.Message(false, "There was an error in your request"))
 		return
 	}
