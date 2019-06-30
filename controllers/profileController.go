@@ -21,8 +21,8 @@ var GetProfile = func(w http.ResponseWriter, r *http.Request) {
 		u.Respond(w, u.Message(false, "There was an error in your request"))
 		return
 	}
-	kid := models.Kid{Name: "Thubelihle", Grade: 0, DateStarted: time.Now()}
-	address := models.Address{StreetNumber: 16, StreetName: "Lonsdale Drive", Suburb: "Durban North", City: "Durban", PostalCode: 4051}
+	kid := models.Kid{"Thubelihle", 0, time.Now()}
+	address := models.Address{16, "Lonsdale Drive", "Durban North", "Durban", 4051}
 	personalDets := models.PersonalDetails{Name: "Godfrey Sisimogang", Address: address}
 	err := personalDets.SetDateOfBirth("1990-03-10")
 	if err != nil {

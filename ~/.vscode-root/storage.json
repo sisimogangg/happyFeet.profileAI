@@ -1373,6 +1373,6 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1e1e1e",
+    "themeBackground": "#000000",
     "pickerWorkingDir": "/home/thubelihle/go/src"
 }
