@@ -1,14 +1,15 @@
 package controllers
 
 import (
+	"encoding/json"
 	"net/http"
 	"time"
 
-	"happyFeet.profileAI/models"
+	"github.com/sisimogangg/happyFeet.profileAI/models"
 
 	"github.com/gorilla/mux"
 
-	u "happyFeet.profileAI/utils"
+	u "github.com/sisimogangg/happyFeet.profileAI/utils"
 )
 
 // GetProfile response to a user request
@@ -39,4 +40,15 @@ var GetProfile = func(w http.ResponseWriter, r *http.Request) {
 
 	u.Respond(w, resp)
 
+}
+
+//CreateProfile will be able to store user profile to database
+var CreateProfile = func(w http.ResponseWriter, r *http.Request) {
+	profile := &models.Profile{}
+
+	err := json.NewDecoder(r.Body).Decode(profile)
+	if err != nil {
+		w.Header().Add("Cotent-Type", "application/json")
+		json.NewEncoder(w).Encode(u.Message(false, "There was an error in your request"))
+	}
 }

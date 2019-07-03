@@ -2,8 +2,9 @@ package models
 
 import "time"
 
-type Kid struct{
-	Name string `json:"name"`
-	Grade int32 `json:"grade"`
+// Kid stores users kids details
+type Kid struct {
+	Name        string    `json:"name"`
+	Grade       int32     `json:"grade"`
 	DateStarted time.Time `json:"dateStarted"`
 }

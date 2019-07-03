@@ -1,8 +1,9 @@
 package models
 
 import "time"
-import u "happyFeet.profileAI/utils"
+import u "github.com/sisimogangg/happyFeet.profileAI/utils"
 
+//PersonalDetails stores users perrsonal info
 type PersonalDetails struct {
 	Name        string    `json:"name"`
 	DateOfBirth time.Time `json:"dateOfBirth"`
@@ -11,6 +12,7 @@ type PersonalDetails struct {
 
 const dateFormat = "2006-01-02"
 
+// Validate will ensure fields are as expected
 func (p *PersonalDetails) Validate() (map[string]interface{}, bool) {
 	if p.Name == "" {
 		return u.Message(false, "No Name"), false
@@ -27,7 +29,7 @@ func (p *PersonalDetails) Validate() (map[string]interface{}, bool) {
 	return u.Message(false, "Requirements Passed"), true
 }
 
-// SetDate sets dateofbirth to the given date string
+// SetDateOfBirth sets dateofbirth to the given date string
 func (p *PersonalDetails) SetDateOfBirth(date string) error {
 	t, err := time.Parse(dateFormat, date)
 	if err != nil {
