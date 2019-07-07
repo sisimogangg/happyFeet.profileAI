@@ -8,7 +8,7 @@ import (
 
 // Servicer represents the profile service
 type Servicer interface {
-	Fetch(ctx context.Context, cursor string, num int64) (*[]models.Profile, string, error)
+	Fetch(ctx context.Context, num int64) ([]*models.Profile, error)
 	GetByID(ctx context.Context, id string) (*models.Profile, error)
 	Update(ctx context.Context, p *models.Profile) error
 	Create(ctx context.Context, p *models.Profile) error

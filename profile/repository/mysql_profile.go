@@ -37,11 +37,43 @@ func (m *mysqlProfileRepository) fetch(ctx context.Context, query string, args .
 		}
 	}()
 
-	return nil, nil
+	result := make([]*models.Profile, 0)
+	for rows.Next() {
+		t := new(models.Profile)
+		sgb := 0
+		err = rows.Scan(
+			&t.ID,
+			&t.UserID,
+			&sgb,
+		)
+
+		if err != nil {
+			return nil, err
+		}
+
+		if sgb == 0 {
+			t.SGBMember = false
+		} else {
+			t.SGBMember = true
+		}
+
+		result = append(result, t)
+
+	}
+
+	return result, nil
 }
 
-func (m *mysqlProfileRepository) Fetch(ctx context.Context, cursor string, num int64) ([]*models.Profile, string, error) {
-	return nil, "", nil
+// Fetch fetches all the current profiles
+func (m *mysqlProfileRepository) Fetch(ctx context.Context, num int64) ([]*models.Profile, error) {
+	query := `SELECT id,user_id,sgb_member FROM profile LIMIT ? `
+
+	p, err := m.fetch(ctx, query, num)
+	if err != nil {
+		return nil, err
+	}
+
+	return p, nil
 }
 
 func (m *mysqlProfileRepository) GetByID(ctx context.Context, id string) (res *models.Profile, err error) {

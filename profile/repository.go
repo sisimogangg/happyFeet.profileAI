@@ -8,7 +8,7 @@ import (
 
 // Repository represents profile's repository contract
 type Repository interface {
-	Fetch(ctx context.Context, cursor string, num int64) (res []*models.Profile, nextCursor string, err error)
+	Fetch(ctx context.Context, num int64) (res []*models.Profile, err error)
 	GetByID(ctx context.Context, string string) (*models.Profile, error)
 	Update(ctx context.Context, p *models.Profile) error
 	Create(ctx context.Context, p *models.Profile) error
