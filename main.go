@@ -5,9 +5,23 @@ import (
 	"net/http"
 	"os"
 
+	"github.com/spf13/viper"
+
 	"github.com/gorilla/mux"
 	controller "github.com/sisimogangg/happyFeet.profileAI/controllers"
 )
+
+func init() {
+	viper.SetConfigFile("config.json")
+	err := viper.ReadInConfig()
+	if err != nil {
+		panic(err)
+	}
+
+	if viper.GetBool("debug") {
+		fmt.Println("Service RUN on DEBUG mode")
+	}
+}
 
 func main() {
 
