@@ -25,7 +25,7 @@ func NewMysqlProfileRepository(conn *sql.DB) profile.Repository {
 }
 
 func (m *mysqlProfileRepository) fetch(ctx context.Context, query string, args ...interface{}) ([]*models.Profile, error) {
-	rows, err := m.Conn.QueryContext(ctx, query, args)
+	rows, err := m.Conn.QueryContext(ctx, query, args...)
 	if err != nil {
 		return nil, err
 	}

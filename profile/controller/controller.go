@@ -26,7 +26,7 @@ func NewProfileHandler(router *mux.Router, service profile.Servicer) {
 		ProfileService: service,
 	}
 
-	router.HandleFunc("/api/profile/{userId}", handler.FetchProfile).Methods("GET")
+	router.HandleFunc("/api/profile/{limit}", handler.FetchProfile).Methods("GET")
 
 }
 
@@ -34,7 +34,7 @@ func NewProfileHandler(router *mux.Router, service profile.Servicer) {
 func (h *ProfileHandler) FetchProfile(w http.ResponseWriter, r *http.Request) {
 
 	params := mux.Vars(r)
-	num, err := strconv.Atoi(params["num"])
+	num, err := strconv.Atoi(params["limit"])
 	if err != nil {
 		u.Respond(w, u.Message(false, "Limit must be a number"))
 	}
