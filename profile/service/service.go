@@ -4,18 +4,46 @@ import (
 	"context"
 	"time"
 
+	"github.com/sisimogangg/happyFeet.profileAI/kids"
+
 	"github.com/sisimogangg/happyFeet.profileAI/models"
 	"github.com/sisimogangg/happyFeet.profileAI/profile"
+	"golang.org/x/sync/errgroup"
 )
 
 type profileService struct {
 	profileRepo    profile.Repository
+	kidsRepo       kids.Repository
 	contextTimeout time.Duration
 }
 
 // NewProfileService returns a new instance of profileService
-func NewProfileService(p profile.Repository, timeout time.Duration) profile.Servicer {
-	return &profileService{profileRepo: p, contextTimeout: timeout}
+func NewProfileService(p profile.Repository, k kids.Repository, timeout time.Duration) profile.Servicer {
+	return &profileService{profileRepo: p, kidsRepo: k, contextTimeout: timeout}
+}
+
+func (p *profileService) fillPupilsDetails(c context.Context, profiles []*models.Profile) ([]*models.Profile, error) {
+	g, ctx := errgroup.WithContext(c)
+
+	mapKids := map[int64]models.Kid{}
+
+	for _, profile := range profiles {
+		mapKids[profile.ID] = models.Kid{}
+	}
+
+	chanKids := make(chan []*models.Kid)
+
+	for kid := range mapKids {
+		g.Go(func() error {
+			res, err := p.kidsRepo.GetByProfileID(ctx, kid)
+			if err != nil {
+				return err
+			}
+			chanKids <- res
+			return nil
+		})
+	}
+	return nil, nil
 }
 
 func (p *profileService) Fetch(c context.Context, num int64) ([]*models.Profile, error) {

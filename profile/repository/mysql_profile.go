@@ -41,14 +41,19 @@ func (m *mysqlProfileRepository) fetch(ctx context.Context, query string, args .
 	for rows.Next() {
 		t := new(models.Profile)
 		sgb := 0
+		profileID := 0
 		err = rows.Scan(
-			&t.ID,
+			&profileID,
 			&t.UserID,
 			&sgb,
 		)
 
 		if err != nil {
 			return nil, err
+		}
+
+		if profileID > 0 {
+			t.ID = int64(profileID)
 		}
 
 		if sgb == 0 {
@@ -76,7 +81,7 @@ func (m *mysqlProfileRepository) Fetch(ctx context.Context, num int64) ([]*model
 	return p, nil
 }
 
-func (m *mysqlProfileRepository) GetByID(ctx context.Context, id string) (res *models.Profile, err error) {
+func (m *mysqlProfileRepository) GetByUserID(ctx context.Context, id string) (res *models.Profile, err error) {
 	return nil, nil
 }
 

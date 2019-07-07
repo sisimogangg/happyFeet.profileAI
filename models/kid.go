@@ -4,7 +4,10 @@ import "time"
 
 // Kid stores users kids details
 type Kid struct {
-	Name        string    `json:"name"`
-	Grade       int32     `json:"grade"`
-	DateStarted time.Time `json:"dateStarted"`
+	ID             int       `json:"id"`
+	Name           string    `json:"name"`
+	Surname        string    `json:"surname"`
+	Grade          string    `json:"grade"`
+	DateOfBirth    time.Time `json:"dateOfBirth"`
+	EnrollmentDate time.Time `json:"enrollmentDate"`
 }
