@@ -23,27 +23,64 @@ func NewProfileService(p profile.Repository, k kids.Repository, timeout time.Dur
 }
 
 func (p *profileService) fillPupilsDetails(c context.Context, profiles []*models.Profile) ([]*models.Profile, error) {
-	g, ctx := errgroup.WithContext(c)
-
-	mapKids := map[int64]models.Kid{}
-
-	for _, profile := range profiles {
-		mapKids[profile.ID] = models.Kid{}
+	type profileKids struct {
+		kids     []*models.Kid
+		parentID int64
 	}
 
-	chanKids := make(chan []*models.Kid)
+	g, ctx := errgroup.WithContext(c)
 
-	for kid := range mapKids {
+	mapProfileIDsToKids := map[int64]profileKids{}
+
+	for _, profile := range profiles {
+		mapProfileIDsToKids[profile.ID] = profileKids{}
+	}
+
+	chanKids := make(chan *profileKids)
+
+	for profileID := range mapProfileIDsToKids {
+		//profileID := profileID
 		g.Go(func() error {
-			res, err := p.kidsRepo.GetByProfileID(ctx, kid)
+			res, err := p.kidsRepo.GetByProfileID(ctx, profileID)
 			if err != nil {
 				return err
 			}
-			chanKids <- res
+
+			response := profileKids{
+				res,
+				profileID,
+			}
+
+			chanKids <- &response
 			return nil
 		})
 	}
-	return nil, nil
+
+	go func() {
+		err := g.Wait()
+		if err != nil {
+			return
+		}
+		close(chanKids)
+	}()
+
+	for pkids := range chanKids {
+		if pkids != nil {
+			mapProfileIDsToKids[pkids.parentID] = *pkids
+		}
+	}
+
+	if err := g.Wait(); err != nil {
+		return nil, err
+	}
+
+	for _, p := range profiles {
+		if k, ok := mapProfileIDsToKids[p.ID]; ok {
+			p.Kids = k.kids
+		}
+	}
+
+	return profiles, nil
 }
 
 func (p *profileService) Fetch(c context.Context, num int64) ([]*models.Profile, error) {
@@ -55,6 +92,11 @@ func (p *profileService) Fetch(c context.Context, num int64) ([]*models.Profile,
 	defer cancel()
 
 	listProfiles, err := p.profileRepo.Fetch(ctx, num)
+	if err != nil {
+		return nil, err
+	}
+
+	listProfiles, err = p.fillPupilsDetails(ctx, listProfiles)
 	if err != nil {
 		return nil, err
 	}

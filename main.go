@@ -14,6 +14,7 @@ import (
 
 	"github.com/gorilla/mux"
 
+	_kidsRepo "github.com/sisimogangg/happyFeet.profileAI/kids/repository"
 	_profileController "github.com/sisimogangg/happyFeet.profileAI/profile/controller"
 	_profileRepo "github.com/sisimogangg/happyFeet.profileAI/profile/repository"
 	_profileservice "github.com/sisimogangg/happyFeet.profileAI/profile/service"
@@ -65,9 +66,10 @@ func main() {
 	router := mux.NewRouter()
 
 	profileRepo := _profileRepo.NewMysqlProfileRepository(dbConn)
+	kidsRepo := _kidsRepo.NewMySQLKidsRepository(dbConn)
 
 	timeContext := time.Duration(viper.GetInt("context.timeout")) * time.Second
-	profileService := _profileservice.NewProfileService(profileRepo, timeContext)
+	profileService := _profileservice.NewProfileService(profileRepo, kidsRepo, timeContext)
 
 	_profileController.NewProfileHandler(router, profileService)
 

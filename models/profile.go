@@ -6,7 +6,7 @@ import u "github.com/sisimogangg/happyFeet.profileAI/utils"
 type Profile struct {
 	ID              int64           `json:"id"`
 	UserID          string          `json:"userId"`
-	Kids            []Kid           `json:"kids"`
+	Kids            []*Kid          `json:"kids"`
 	SGBMember       bool            `json:"sgbMember"`
 	PersonalDetails PersonalDetails `json:"personalDetails"`
 }

@@ -56,7 +56,7 @@ func (m *mySQLKidsRepository) fetch(ctx context.Context, query string, args ...i
 }
 
 func (m *mySQLKidsRepository) GetByProfileID(ctx context.Context, profileID int64) ([]*models.Kid, error) {
-	query := ` SELECT id,name,surname, grade, date_of_birth, enrollment_date 
+	query := ` SELECT id,name,surname, grade, date_of_birth, enrollment_date
 	 			FROM kid
 				WHERE profile_id = 1005
 			  `
