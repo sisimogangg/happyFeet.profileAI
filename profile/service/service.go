@@ -4,6 +4,7 @@ import (
 	"context"
 	"time"
 
+	"github.com/pkg/errors"
 	"github.com/sisimogangg/happyFeet.profileAI/kids"
 
 	"github.com/sisimogangg/happyFeet.profileAI/models"
@@ -39,11 +40,11 @@ func (p *profileService) fillPupilsDetails(c context.Context, profiles []*models
 	chanKids := make(chan *profileKids)
 
 	for profileID := range mapProfileIDsToKids {
-		//profileID := profileID
+		profileID := profileID
 		g.Go(func() error {
 			res, err := p.kidsRepo.GetByProfileID(ctx, profileID)
 			if err != nil {
-				return err
+				return errors.Wrap(err, "Error retrieving kids from Repo")
 			}
 
 			response := profileKids{
@@ -71,7 +72,7 @@ func (p *profileService) fillPupilsDetails(c context.Context, profiles []*models
 	}
 
 	if err := g.Wait(); err != nil {
-		return nil, err
+		return nil, errors.Wrap(err, "Error in thread retrieving kids")
 	}
 
 	for _, p := range profiles {
@@ -93,12 +94,12 @@ func (p *profileService) Fetch(c context.Context, num int64) ([]*models.Profile,
 
 	listProfiles, err := p.profileRepo.Fetch(ctx, num)
 	if err != nil {
-		return nil, err
+		return nil, errors.Wrap(err, "Error retrieving profiles")
 	}
 
 	listProfiles, err = p.fillPupilsDetails(ctx, listProfiles)
 	if err != nil {
-		return nil, err
+		return nil, errors.Wrap(err, "Error filling kids details")
 	}
 
 	return listProfiles, nil

@@ -5,6 +5,7 @@ import (
 	"database/sql"
 	"log"
 
+	"github.com/pkg/errors"
 	"github.com/sisimogangg/happyFeet.profileAI/kids"
 	"github.com/sisimogangg/happyFeet.profileAI/models"
 )
@@ -21,7 +22,7 @@ func NewMySQLKidsRepository(conn *sql.DB) kids.Repository {
 func (m *mySQLKidsRepository) fetch(ctx context.Context, query string, args ...interface{}) ([]*models.Kid, error) {
 	rows, err := m.Conn.QueryContext(ctx, query, args...)
 	if err != nil {
-		return nil, err
+		return nil, errors.Wrap(err, "Could not estable database connection")
 	}
 
 	defer func() {
@@ -45,7 +46,7 @@ func (m *mySQLKidsRepository) fetch(ctx context.Context, query string, args ...i
 		)
 
 		if err != nil {
-			return nil, err
+			return nil, errors.Wrap(err, "Could not serialize kids entity")
 		}
 
 		result = append(result, t)
@@ -63,7 +64,7 @@ func (m *mySQLKidsRepository) GetByProfileID(ctx context.Context, profileID int6
 
 	kids, err := m.fetch(ctx, query, profileID)
 	if err != nil {
-		return nil, err
+		return nil, errors.Wrap(err, "Issues retrieving kids from database")
 	}
-	return kids, nil
+	return kids, errors.Wrap(err, "Issues retrieving kids from database")
 }
