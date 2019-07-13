@@ -35,7 +35,7 @@ func (m *mySQLPersonalDetailsRepo) fetch(ctx context.Context, query string, args
 	d := new(models.PersonalDetails)
 	// Will need to read the address from another repository
 	if row.Next() {
-		if err := row.Scan(&d.Address, &d.DateOfBirth, &d.Name); err != nil {
+		if err := row.Scan(&d.DateOfBirth, &d.Name); err != nil {
 			return nil, errors.Wrap(err, "Error closing the database connection")
 		}
 	}
@@ -45,5 +45,12 @@ func (m *mySQLPersonalDetailsRepo) fetch(ctx context.Context, query string, args
 
 // GetByProfileID returns user personaldetails given profile ID
 func (m *mySQLPersonalDetailsRepo) GetByProfileID(ctx context.Context, profileID int64) (*models.PersonalDetails, error) {
-	return nil, nil
+	query := `SELECT date_of_birth, name from personal_details 
+	WHERE profile_id =?`
+
+	d, err := m.fetch(ctx, query, profileID)
+	if err != nil {
+		return nil, errors.Wrap(err, "Could not fetch user personal details from database")
+	}
+	return d, nil
 }
