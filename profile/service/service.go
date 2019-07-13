@@ -4,6 +4,8 @@ import (
 	"context"
 	"time"
 
+	"github.com/sisimogangg/happyFeet.profileAI/personaldetails"
+
 	"github.com/pkg/errors"
 	"github.com/sisimogangg/happyFeet.profileAI/kids"
 
@@ -13,14 +15,20 @@ import (
 )
 
 type profileService struct {
-	profileRepo    profile.Repository
-	kidsRepo       kids.Repository
-	contextTimeout time.Duration
+	profileRepo            profile.Repository
+	kidsRepo               kids.Repository
+	personalDetailsService personaldetails.Servicer
+	contextTimeout         time.Duration
 }
 
 // NewProfileService returns a new instance of profileService
-func NewProfileService(p profile.Repository, k kids.Repository, timeout time.Duration) profile.Servicer {
-	return &profileService{profileRepo: p, kidsRepo: k, contextTimeout: timeout}
+func NewProfileService(p profile.Repository, k kids.Repository, pd personaldetails.Servicer, timeout time.Duration) profile.Servicer {
+	return &profileService{
+		profileRepo:            p,
+		kidsRepo:               k,
+		personalDetailsService: pd,
+		contextTimeout:         timeout,
+	}
 }
 
 func (p *profileService) fillPupilsDetails(c context.Context, profiles []*models.Profile) ([]*models.Profile, error) {
